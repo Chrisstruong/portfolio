@@ -1,6 +1,5 @@
 {
-    "name": "Bob Smith",
-    "email": "Bob@BobSmith.dev",
-    "headshot": "http://www.imgur.com/pictureofproject.png",
-    "bio": "Bob Smith graduated from General Assembly in 2017. Afterwords, he went to work for XYZ Technologies where he maintained a full-stack application using Meteor and Ember. He also recently started learning Prolog, cause why not waste time."
+    "name": "Triet Truong",
+    "headshot": "https://i.imgur.com/7TyhKTC.jpg",
+    "bio": "My name is Triet Truong and I am currently taking GA full-time to enhance my knowledge about fullstack development. I have been passionate about coding since I studied Pascal in grade 8th. Then I took computer science grade 11th and 12th classes at high school in Toronto, Canada. My performance at school went well so that I was honored to receive chemical engineering offer from University of Waterloo. Because I had to immigrate to the U.S.A in September, 2022 with my family, I could not have gone there to study. Problem-solving and logic of coding thrills me to explore more about the world of coding. "
   }

@@ -1,14 +1,16 @@
 [
     {
-      "name": "project1",
-      "live": "https://app.herokuapp.com/whatever",
-      "git": "http://www.github.com/username/reponame",
-      "image": "http://www.imgur.com/pictureofproject.png"
+      "name": "Project1: Simon Game",
+      "content": "Simon is game that you have to click colors in order so as to win. There are four colors in my game. Every single round, simon will repeat the order and create one random color added to the order. The game is over when you click a wrong color in order.",
+      "liveApp": "https://chrisstruong.github.io/Project1_Simon/",
+      "repo": "https://github.com/Chrisstruong/Project1_Simon",
+      "image": "https://raw.githubusercontent.com/Chrisstruong/Project1_Simon/main/Screen%20Shot%202022-11-20%20at%206.21.25%20PM.png"
     },
     {
-      "name": "project2",
-      "live": "https://app.netlify.app/whatever",
-      "git": "http://www.github.com/username/reponame",
-      "image": "http://www.imgur.com/pictureofproject.png"
+      "name": "Project2: Random Photos of Breed",
+      "content": "Sometimes folks just want to see photos of cute dogs. Our app's mission is to solve the problem of by allowing the user to randomly generate a photo of a dog from a group of over 1000 dog photos.",
+      "liveApp": "https://splendid-crostata-0dccb8.netlify.app/",
+      "repo": "https://github.com/Calathea-Z/project-two-react-app",
+      "image": "https://i.imgur.com/jz4XD9n.png"
     }
   ]

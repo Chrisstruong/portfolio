@@ -1,0 +1,87 @@
+body {
+    margin: 0 auto;
+    background-color: blueviolet;
+}
+.navStyle {
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid rgba(124, 26, 4, 0);
+    padding: 8px;
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    background-color: rgba(107, 76, 170, 0.951);
+    
+}
+.el {
+    color: white
+}
+#intro-background {
+    height: 100%;
+    width: 100%;
+}
+
+.Contacts{
+    background-color: blueviolet;
+    font-size: 30px;
+
+}
+
+.footer2 {
+    padding: 10px;
+    font-size: 10px;
+    background-color: rgb(118, 234, 252);
+}
+
+.About {
+    text-align: left;
+}
+
+.About2 {
+    background-color: aliceblue;
+    font-size: 26px;
+
+}
+
+#name {
+    text-align: center;
+}
+
+#avatar{
+    float: left;
+    width: 20%;
+    height: 291px;
+
+}
+
+.Projects {
+    text-align: left;
+    font-size: 28px;
+}
+.ProjectsInfo{
+    background-color: aliceblue;
+}
+
+#ProjectPic1 {
+    float: left;
+    width: 50%;
+    height: 450px;
+    border-radius: 5px;
+}
+
+.aa{
+    text-align: left;
+    font-size: 30px;
+}
+
+#ProjectPic2 {
+    float: left;
+    width: 50%;
+    height: 417px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    color: white
+}

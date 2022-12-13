@@ -1,8 +1,8 @@
 import "./App.css";
+import "./styles/portfolio.css"
 
 // IMPORT COMPONENTS
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 import { Route, Routes } from "react-router-dom";
 // IMPORT PAGES
 import Home from "./pages/Home";
@@ -21,7 +21,7 @@ function App() {
         <Route path="/projects" element={<Projects URL={URL} />} />
         <Route path="/about" element={<About URL={URL} />} />
       </Routes>
-      <Footer />
+
     </div>
   );
 }
