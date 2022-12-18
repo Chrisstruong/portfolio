@@ -71,24 +71,32 @@ body {
 }
 .ProjectsInfo{
     background-color: aliceblue;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ProjectsInfo2{
+    background-color: aliceblue;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    column-gap: 2cm;
 }
 
 #ProjectPic1 {
-    float: left;
+    /* float: left;
     width: 50%;
     height: 450px;
-    border-radius: 5px;
+    border-radius: 5px; */
+    width: 97%;
+    height: 100%;
 }
-
-.aa{
-    text-align: right;
-    font-size: 30px;
+.h2Project1 {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #ProjectPic2 {
-    float: left;
-    width: 50%;
-    height: 417px;
+    width: 108%;
+    height: 100%;
 }
 
 .icons{

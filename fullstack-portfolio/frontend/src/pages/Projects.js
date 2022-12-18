@@ -27,31 +27,33 @@ function Projects(props) {
       <div className="ProjectsInfo">
         <div>
           <img src={projects[0].image} alt="" id="ProjectPic1" />
-        </div> 
-        <h2>{projects[0].name}</h2>
-        <p>{projects[0].content}</p>
-        <h3>Technologies Index</h3>
-        <p>HTML, CSS, JavaScript.</p>
-        <div className="aa">
-          <a href={projects[0].repo}><button>Repo</button></a>
-          <a href={projects[0].liveApp}><button>Visit Live App</button></a>
+        </div>
+        <div>
+          <h2 className="h2Project1">{projects[0].name}</h2>
+          <p>{projects[0].content}</p>
+          <h3 className="h2Project1">Technologies Index</h3>
+          <p>HTML, CSS, JavaScript.</p>
+          <div className="aa">
+            <a href={projects[0].repo}><button>Repo</button></a>
+            <a href={projects[0].liveApp}><button>Visit Live App</button></a>
+          </div>
         </div>
       </div>
-
-      <div className="ProjectsInfo">
+      <br />
+      <div className="ProjectsInfo2">
         <div>
           <img src={projects[1].image} alt="" id="ProjectPic2" />
-        </div> 
-        <h2>{projects[1].name}</h2>
-        <p>{projects[1].content}</p>
-        <h3>Technologies Index</h3>
-        <p>React, CSS, Flexbox.</p>
-        <div className="aa">
+        </div>
+        <div>
+          <h2 className="h2Project1">{projects[1].name}</h2>
+          <p>{projects[1].content}</p>
+          <h3 className="h2Project1">Technologies Index</h3>
+          <p>React, CSS, Flexbox.</p>
           <a href={projects[1].repo}><button>Repo</button></a>
           <a href={projects[1].liveApp}><button>Visit Live App</button></a>
         </div>
       </div>
-      
+
     </div>
   );
 
