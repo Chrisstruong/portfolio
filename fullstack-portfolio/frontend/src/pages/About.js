@@ -28,11 +28,13 @@ function About(props) {
       <br />
       <br />
       <div className="About2">
-        <div>
+        <div className="divAvatar">
           <img src={about.headshot} alt="" id="avatar" />
         </div>
+        <div>
         <h2 id="name">{about.name}</h2>
         <p>{about.bio}</p>
+        </div>
       </div>
     </div>
   );
